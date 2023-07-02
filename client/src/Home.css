@@ -1,0 +1,16 @@
+.main-grid-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1.1fr;
+  }
+  
+  .title-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    color: white;
+    margin: 0;
+    padding: 25px;
+  }
+  

@@ -1,0 +1,10 @@
+.streamer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4d5d6;
+  color: rgb(168, 167, 167);
+  padding: 45px;
+}
