@@ -84,35 +84,35 @@ function AddStreamerForm({ onAddStreamer }) {
             <div>
               {showDropdown && (
                 <div className="options">
-                  <label class="container">
+                  <label className="container">
                     Other
                     <input type="checkbox" name='other' onClick={(e) => togglePlatform(e.target.name)}/>
-                    <span class="checkmark"></span>
+                    <span className="checkmark"></span>
                   </label>
-                  <label class="container">
+                  <label className="container">
                     Twitch
                     <input type="checkbox" name='twitch' onClick={(e) => togglePlatform(e.target.name)} />
-                    <span class="checkmark"></span>
+                    <span className="checkmark"></span>
                   </label>
-                  <label class="container">
+                  <label className="container">
                     YouTube
                     <input type="checkbox" name='youtube' onClick={(e) => togglePlatform(e.target.name)} />
-                    <span class="checkmark"></span>
+                    <span className="checkmark"></span>
                   </label>
-                  <label class="container">
+                  <label className="container">
                     TikTok
                     <input type="checkbox" name='tiktok' onClick={(e) => togglePlatform(e.target.name)}/>
-                    <span class="checkmark"></span>
+                    <span className="checkmark"></span>
                   </label>
-                  <label class="container">
+                  <label className="container">
                     Kick
                     <input type="checkbox" name='kick' onClick={(e) => togglePlatform(e.target.name)}/>
-                    <span class="checkmark"></span>
+                    <span className="checkmark"></span>
                   </label>
-                  <label class="container">
+                  <label className="container">
                     Rumble
                     <input type="checkbox" name='rumble' onClick={(e) => togglePlatform(e.target.name)}/>
-                    <span class="checkmark"></span>
+                    <span className="checkmark"></span>
                   </label>
                 </div>
               )}
@@ -132,12 +132,12 @@ function AddStreamerForm({ onAddStreamer }) {
           </label>
         </div>
 
-        <span class="form-title">Upload profile picture</span>
-        <p class="form-paragraph">File should be an image</p>
+        <span className="form-title">Upload profile picture</span>
+        <p className="form-paragraph">File should be an image</p>
         <label
           onChange={(e) => setPhoto(e.target.files[0])}
           for="file-input"
-          class="drop-container"
+          className="drop-container"
         >
           <input type="file" accept="image/*" required="" id="file-input" />
         </label>

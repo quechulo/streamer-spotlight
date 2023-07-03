@@ -25,13 +25,13 @@ const DislikeButton = ({ streamer }) => {
   };
 
   return (
-    <button class="Btn-dis" onClick={handleClick}>
-      <span class="leftContainer-dis">
+    <button className="Btn-dis" onClick={handleClick}>
+      <span className="leftContainer-dis">
         
           <Avatar1 />
-        <span class="dislike">Dislike</span>
+        <span className="dislike">Dislike</span>
       </span>
-      <span class="dislikeCount">{dislikes}</span>
+      <span className="dislikeCount">{dislikes}</span>
     </button>
   );
 };

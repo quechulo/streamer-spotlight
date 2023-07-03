@@ -8,19 +8,17 @@ function StreamerItem({ streamer }) {
   const navigate = useNavigate();
 
   const handleClickStreamer = () => {
-    // console.log(streamer)
     navigate(`/streamer/${streamer._id}`);
   };
 
   return (
     <div className="streamer-item">
-      <div class="card">
-        <div class="card-info">
-          <div class="card-avatar"></div>
-          <div class="card-title">
+      <div className="card">
+        <div className="card-info">
+          <div className="card-avatar"></div>
+          <div className="card-title">
             {streamer.name} {streamer.surname}
           </div>
-          {/* <div class="card-subtitle">CEO &amp; Co-Founder</div> */}
         </div>
         <div className="card-info">
           <LikeButton streamer={streamer} />

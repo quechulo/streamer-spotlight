@@ -9,6 +9,7 @@ const [streamers, setStreamers] = useState([]);
 
   useEffect(() => {
     fetchStreamers();
+    document.title = `Streamer Spotlight`;
   }, []);
 
   const addStreamer = (newStreamer) => {
