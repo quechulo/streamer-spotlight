@@ -2,13 +2,13 @@
 
 ## how to run this project:
 ### inside /server directory:
-1. npm install
-2. node index.mjs
-   In order to work correctly, you need to create a .env file inside the .server directory. There must be ‘DB_URL’ and ‘PORT’ variables with a valid MongoDB connection URL and port number on which the server should run accordingly.
+1. ```npm install```
+2. ```node index.mjs```
+   In order to work correctly, you need to create a ```.env``` file inside the ```.server``` directory. There must be ```'DB_URL'``` and ```'PORT'``` variables with a valid MongoDB connection URL and port number on which the server should run accordingly.
 
 ### inside /client directory:
-1. npm install
-2. npm start
+1. ```npm install```
+2. ```npm start```
 
 
 # Video of project usage:
