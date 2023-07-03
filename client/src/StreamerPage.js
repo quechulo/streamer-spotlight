@@ -17,7 +17,6 @@ const StreamerPage = () => {
       document.title = `Streamer ${response.data.name}`;
     };
     fetchStreamer();
-    console.log(streamer);
   }, []);
 
   return (

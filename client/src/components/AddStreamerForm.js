@@ -136,7 +136,7 @@ function AddStreamerForm({ onAddStreamer }) {
         <p className="form-paragraph">File should be an image</p>
         <label
           onChange={(e) => setPhoto(e.target.files[0])}
-          for="file-input"
+          htmlFor="file-input"
           className="drop-container"
         >
           <input type="file" accept="image/*" required="" id="file-input" />
