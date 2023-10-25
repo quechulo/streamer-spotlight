@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5050;
 
 const corsOptions = {
   origin: (origin, callback) => {
-    if (origin === "http://localhost:3000") {
+    if (origin === "*") {
       callback(null, true);
     } else {
       callback(new Error("Not allowed by CORS"));
