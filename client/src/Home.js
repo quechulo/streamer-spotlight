@@ -18,7 +18,7 @@ const [streamers, setStreamers] = useState([]);
 
   const fetchStreamers = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/streamers');
+      const response = await axios.get('http://51.20.70.220:5000/api/streamers');
       setStreamers(response.data);
     } catch (error) {
       console.log(error);

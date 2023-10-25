@@ -11,7 +11,7 @@ const StreamerPage = () => {
   useEffect(() => {
     const fetchStreamer = async () => {
       const response = await axios.get(
-        `http://localhost:5000/api/streamer/${params.id}`
+        `http://51.20.70.220:5000/api/streamer/${params.id}`
       );
       setStreamer(response.data);
       document.title = `Streamer ${response.data.name}`;

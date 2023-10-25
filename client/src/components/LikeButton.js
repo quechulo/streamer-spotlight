@@ -11,7 +11,7 @@ const LikeButton = ({ streamer }) => {
       vote: 'upvote',
     };
 
-    axios.put(`http://localhost:5000/api/streamers/${streamer._id}/vote`, data)
+    axios.put(`http://51.20.70.220:5000/api/streamers/${streamer._id}/vote`, data)
       .then(response => {
         // Handle the response data
         console.log('PUT request successful:', response.data);

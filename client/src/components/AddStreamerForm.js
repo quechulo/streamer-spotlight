@@ -29,7 +29,7 @@ function AddStreamerForm({ onAddStreamer }) {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/streamers",
+        "http://51.20.70.220:5000/api/streamers",
         newStreamer,
       );
       console.log("Streamer added:", response.data);
